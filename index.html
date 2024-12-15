@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 5</title>
+    <link rel="stylesheet" type="text/css" href="Stylel.css">
+</head>
+<body>
+    <div id = "bg"></div>
+    <div class="container">
+        <h1>Калькулятор стоимости заказа</h1>
+        
+        <label for="quantity">Количество товара:</label>
+        <input type="number" id="quantity" placeholder="Введите количество" min="1">
+    
+        <label for="product">Выберите товар:</label>
+        <select id="product">
+            <option value="0">Выберите билет(ы)</option>
+            <option value="2000">Матч ЦСКА - Краснодар - 2000 руб</option>
+            <option value="3000">Матч Краснодар - Зенит - 3000 руб</option>
+            <option value="1200">Матч Краснодар - Химки - 1200 руб</option>
+            <option value="1100">Матч Краснодар - Ростов - 1100 руб</option>
+            <option value="2100">Матч Краснодар - Локомотив - 2100 руб</option>
+        </select>
+    
+        <button id="calculate">Посчитать стоимость</button>
+    
+        <div class="result" id="result"></div>
+    </div>
+    <script type="text/javascript" src="JS/particles.min.js"></script>
+    <script type="text/javascript" src="JS/custom.js"></script>
+    <script src="JS/script.js"></script>
+</body>
+</html>
